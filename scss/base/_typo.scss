@@ -1,0 +1,111 @@
+/*----------------------------- FONTS SIZES  ---------------------*/
+:root {
+    --font-size-11: 0.3rem;
+    --font-size-12: 0.5rem;
+    --font-size-13: 0.7rem;
+    --font-size-14: 0.8rem;
+    --font-size-15: 0.875rem;
+    --font-size-16: 0.9rem;
+    --font-size-17: 0.920rem;
+    --font-size-18: 0.950rem;
+    --font-size-19: 0.975rem;
+    --font-size-20: 1rem;
+    --font-size-21: 1.10rem;
+    --font-size-22: 1.15rem;
+    --font-size-23: 1.18rem;
+    --font-size-24: 1.25rem;
+    --font-size-25: 1.35rem;
+    --font-size-26: 1.70rem;
+    --font-size-27: 1.80rem;
+    --font-size-28: 1.87rem;
+    --font-size-29: 1.94rem;
+    --font-size-30: 2rem;
+    --font-size-31: 2.1rem;
+    --font-size-32: 2.2rem;
+    --font-size-33: 2.4rem;
+    --font-size-34: 2.5rem;
+    --font-size-35: 2.8rem;
+    --font-size-36: 3rem;
+    --font-size-42: 3.5rem;
+    --font-size-50: 4rem;
+    --font-size-55: 4.5rem;
+    --font-size-57: 4.9rem;
+    --font-size-59: 5rem;
+    --font-size-60: 5.5rem;
+    --font-size-65: 5.8rem;
+    --font-size-70: 7rem;
+    --font-size-197: 12.313rem;
+
+
+/*TRANSITIONS DECOR & Co*/
+  
+  --light-spacing: 0.1rem;
+  --spacing: 0.3rem;
+  --deep-spacing:0.5rem;
+
+  /*BORDERS OPTIONS*/
+  --border-dotted: dotted;
+  --border-dashed: dashed;
+  --border-solid: solid;
+  --border-none: none;
+  --border-groove: groove;
+
+  
+
+  /*BORDERS RADIUS*/
+  --border-r025: 0.25rem;
+  --border-r1: 1rem;
+  --border-r2: 2rem;
+  --border-r3: 3rem;
+  --border-r4: 4rem;
+
+  /*SHADOW*/
+  --light-shadow: 0px 5px 10px 5px rgba(138, 134, 134, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --light-shadow-zil: 0 5px 15px #00ccb4;
+  --dark-shadow-zil: 0 5px 15px #009987;
+ 
+  
+}
+
+
+
+  /*BOLDNESS*/
+
+.text-bold-400 {
+  font-weight: 400;
+}
+
+.text-bold-600 {
+  font-weight: 600;
+}
+
+.text-bold-800 {
+  font-weight: 800;
+}
+
+  /*OVERWRITE*/
+  .text-overwrite {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fffdfd;
+  }
+
+
+  /*OVERSTRESSED*/
+  .stressed-white {
+    text-decoration: overline;
+    color: var(--clr-txt-wht);
+}
+
+.stressed-black {
+    text-decoration: overline;
+    color: black;
+}
+
+
+/*HR WHITE*/
+
+.hr-white{
+  color: white !important;
+}

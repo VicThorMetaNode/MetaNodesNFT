@@ -1,0 +1,30 @@
+/* IMPORT-FONTS FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Julius+Sans+One&family=Monda:wght@400;700&family=Unica+One&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@100;200;300;400;500;600;700;800;900&family=Erica+One&family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Redacted+Script:wght@300;400;700&display=swap');
+
+/*----------------------------- FONTS FAMILY ------------------------*/
+:root {
+  /*----------- MAIN ---------*/
+ --ft-sub-title: 'Crimson Pro', serif;
+ --ft-main-title: 'Unica One', cursive;
+
+
+ /*----------- ALT ---------*/
+ --ft-btn-text: 'Julius Sans One', sans-serif;
+ --ft-main-text:  'Monda', sans-serif;
+
+  //--------- alt 2 ---------
+  // --ft-anime-title: 'Big Shoulders Inline Display', cursive;
+  --ft-anime-text: 'Erica One', cursive;
+  --ft-anime-tag: 'Genos', sans-serif;
+  --ft-anime-subtext: 'Noto Sans JP', sans-serif;
+  --ft-anime-subtitle: 'Redacted Script', cursive;
+  --ft-audio-title: "JetBrains Mono", monospace;
+  --ft-audio-tag: "Thasadith", sans-serif;
+}
+

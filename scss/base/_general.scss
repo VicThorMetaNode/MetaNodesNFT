@@ -1,0 +1,75 @@
+/*
+=============== 
+GLOBAL STYLES
+===============
+*/
+
+/*----------------------------- SCROLLBAR ------------------------*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--clr-bg-wth);
+  border-radius: 10px;
+  border: 1px solid var(--clr-bg-drk);
+}
+
+
+*,
+::after,
+::before {
+  margin:0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+body {
+    background: var( --color-coconut) !important;
+    color: var(--clr-txt-blk) !important;
+    line-height: 1.5 !important;
+    font-size: 0.875rem !important;
+  }
+
+  a {
+    font-size: var(--font-size-20);
+    text-decoration: none;
+    color: var( --clr-link-dark-grey);
+  }
+
+  a:hover{
+    color: var( --clr-link-dark-grey);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+  }
+
+  h1 {
+    font-size: var(--font-size-36);
+  }
+  h2 {
+    font-size: var(--font-size-30);
+  }
+  h3 {
+    font-size: var(--font-size-24);
+  }
+  h4 {
+    font-size: var(--font-size-20);
+  }
+  p {
+    font-size: var(--font-size-15);
+  }
+
+
+  main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

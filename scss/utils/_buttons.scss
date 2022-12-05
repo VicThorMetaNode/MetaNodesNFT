@@ -1,0 +1,13 @@
+ /*---- MAIN BUTTONS ----*/
+ @use '../abstracts/variables' as var;
+
+.btn-connect-wallet {
+    background-color: var(--clr-btn-blk) ;
+    color: var(--clr-txt-wht);
+    // font-family: var(--ft-btn-syncopate) ;
+    font-size: var(--font-size-14) ;
+    font-weight: 600;
+    letter-spacing: var(--light-spacing);
+    border-radius: 10px ;
+    padding: var.$padding-y-btn-30;
+}
