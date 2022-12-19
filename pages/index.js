@@ -2,13 +2,13 @@ import React, { useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 //IMPORT CLIENT FROM SANITY
-import { client } from "../lib/client";
+import { client } from "../lib/sanityClient";
 //IMPORT THIRDWEB HOOKS
 import { useWeb3 } from "@3rdweb/hooks";
 
 // IMPORT CHAKRA tools
 import { Box, Stack, Text } from "@chakra-ui/react";
-import { HeroBanner } from "../components";
+import { Header, HeroBanner } from "../components";
 
 export default function Home() {
   const { address, connectWallet } = useWeb3();
@@ -40,12 +40,14 @@ export default function Home() {
       welcomeUser(result.userName);
     })();
   }, [address]);
+
   return (
     <>
       <section className="home-section">
         <Toaster position="top-center" reverseOrder={false} />
         {address ? (
           <>
+            <Header />
             <HeroBanner />
           </>
         ) : (

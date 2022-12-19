@@ -4,10 +4,10 @@ import React from "react"
 
 //SETUP THIRDWEB
 /**
- * The chain ID 137 represents the Polygon network
+ * The chain ID 137 represents the Polygon network //80001 represent Polygon Testnet
  * The `injected` connector is a web3 connection method used by Metamask
  */
- const supportedChainIds = [	80001]
+ const supportedChainIds = [80001]
  const connectors = {
    injected: {},
  }

@@ -3,7 +3,7 @@ import Head from "next/head";
 
 //Import components
 import { Footer } from "./index";
-import { Navbar } from "./index";
+// import { Navbar } from "./index";
 
 export default function Layout({ children }) {
   return (
@@ -13,11 +13,11 @@ export default function Layout({ children }) {
           <title className="head-title">MTNlabs - NFT DROP</title>
           <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
-        <header>
+        {/* <header>
           <nav>
             <Navbar />
           </nav>
-        </header>
+        </header> */}
         <main className="layout-main-container">{children}</main>
         <footer>
           <Footer />
